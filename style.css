@@ -1,6 +1,5 @@
-
-  /* Add a black background color to the top navigation */
-.topnav {
+ /* Add a black background color to the top navigation */
+ .topnav {
   background-color: #ecba12;
   overflow: hidden;
 }
@@ -13,6 +12,7 @@
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
+  font-weight: bold;
 }
 
 /* Change the color of links on hover */
@@ -27,6 +27,13 @@
   color: white;
 }
 
+h1 {
+  text-align: center;
+}
+
+a {text-decoration:underline rline; 
+  color: #ecba12;
+}
 /* create style for h3 headers*/
 h3 {
     text-align: center;
@@ -35,9 +42,7 @@ h3 {
     font-weight: bold;
     color: #ecba12;
 }
-h1 {
-  text-align: center;
-}
+
 img {
     display: block;
     margin-left: auto;
@@ -46,12 +51,9 @@ img {
     height: 50%;
 }
 body {
-    font-family: Arial;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-style: italic;
     color: #f8f8f8;
     padding: 25px;
     background: #2b34b6;
   }
-
-  
-  
